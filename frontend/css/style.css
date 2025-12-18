@@ -15,7 +15,7 @@ body {
 header {
     background: linear-gradient(135deg, #27ae60, #2ecc71);
     color: white;
-    padding: 25px;
+    padding: 26px;
     text-align: center;
 }
 
@@ -24,7 +24,7 @@ header h1 {
 }
 
 header p {
-    margin-top: 5px;
+    margin-top: 4px;
     font-size: 16px;
 }
 
