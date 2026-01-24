@@ -7,20 +7,36 @@
 </head>
 <body>
 
-  <!-- HEADER -->
-  <header>
-    <h1>🛒 Market</h1>
-    <p>Fresh Products at Best Prices</p>
-  </header>
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">🛒 <span>Market</span></div>
 
-  <!-- PRODUCTS -->
-  <div class="product-container" id="products"></div>
+  <input class="search" type="text" placeholder="Search for Products..." />
 
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2025 Market | All Rights Reserved</p>
-  </footer>
+  <div class="actions">
+    <a href="login.html">Login / Sign Up</a>
+    <a href="cart.html" class="cart">🛍 Cart</a>
+  </div>
+</header>
 
-  <script src="js/products.js"></script>
+<!-- CATEGORY BAR -->
+<div class="categories">
+  <button>Eggs, Meat & Fish</button>
+  <button>Ayurveda</button>
+  <button>Buy More Save More</button>
+  <button>Deals of the Week</button>
+  <button>Combo Store</button>
+</div>
+
+<!-- PRODUCTS -->
+<div class="container">
+  <div class="title">
+    <h2>My Smart Basket</h2>
+  </div>
+
+  <div id="products" class="products"></div>
+</div>
+
+<script src="js/products.js"></script>
 </body>
 </html>
